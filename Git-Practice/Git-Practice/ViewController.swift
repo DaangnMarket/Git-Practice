@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         
         minTest()
         tedTest()
+        tedSecondTest()
     }
     
     // MARK: - Methods
@@ -26,5 +27,9 @@ class ViewController: UIViewController {
     private func tedTest() {
         view.backgroundColor = .blue
         print("Ted")
+    }
+    
+    private func tedSecondTest() {
+        print("Ted Second Test")
     }
 }
